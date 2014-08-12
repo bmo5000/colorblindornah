@@ -1,4 +1,3 @@
-
 <html>
    <head>
     <title>ColorBlindOrNah</title>
@@ -6,7 +5,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <style>
-body { padding-top: 70px; }
+body { padding-top: 70px;}
 </style>
 
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
@@ -27,45 +26,63 @@ body { padding-top: 70px; }
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="colorblindornahHOME.html">Home</a></li>
-            <li class="active"><a href="colorblindornahQUOTES.html">Quotes</a></li>
+            <li><a href="colorblindornahQUOTES.html">Quotes</a></li>
             <li><a href="colorblindornahTRIT.html">Tritanomaly</a></li>
-            <li><a href="#about">Deuteranomaly</a></li>
+            <li><a href="colorblindornahDEUT.html">Deuteranomaly</a></li>
             <li><a href="#about">Protanomaly</a></li>
-            <li><a href="colorblindornahABOUT.html">About Us</a></li>
+            <li class="active"><a href="colorblindornahCAMERA.html">Camera</a></li>
+            <li ><a href="colorblindornahABOUT.html">About Us</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>    
   </ul>
   <div class="container">
-    <div class="row">
+  	<div class="row">
         
 </div>
 </div>
 
 <div class="container-fluid">
-  <div class="row">
+	<div class="row">
  
-    <div class="col-md-4">
-      <img src="holder.js/300x300"></a>
+  	<div class="col-md-4">
+    	<img src="holder.js/300x300"></a>
     </div>
-    <div class="col-md-4">
-      <div class= "row">
+  	<div class="col-md-4">
+  		<div class= "row">
+  			
+  	    <h1>See Yourself</h1>
+        <br><br><br>
+          
+          <div id="upload-file-container">
+          <big><big><big> 
+          <form enctype=multipart/form-data input action="http://localhost:5000/hello" method ="POST"> 
+
+          <input type="file" name="photo" /></big></big></big>
+          <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button> </form>
+</div>
         
-        <h1>Quote Page</h1>
-    </div>
-    </div>
-    <div class="col-md-4">
-    <img src="holder.js/300x300">  </a>   
-      </div>
-  </div>
+        </body>
+      </html>
+		</div>
+  	</div>
+  	<div class="col-md-4">
+		<img src="holder.js/300x300">  </a>   
+			</div>
+
+</div>
+	</div>
 </div>
 
-  
+  </ol>
+
+  <!-- Wrapper for slides -->
+ 
   </body>
   
-  
-  </form>
+	
+	</form>
 
 
     <!-- JavaScript plugins (requires jQuery) -->
@@ -73,8 +90,5 @@ body { padding-top: 70px; }
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
 
-
-  </body>
 </html>
 
-  </form>
